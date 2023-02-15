@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias preferidas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        li {
+            font-size: 26px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        }
+
+        li:nth-child(1) {
+            color: red;
+        }
+
+        li:nth-child(2) {
+            color: blue;
+        }
+
+        li:nth-child(3) {
+            color: forestgreen;
+        }
+
+        li:nth-child(4) {
+            color: violet;
+        }
+
+        li:nth-child(5) {
+            color: saddlebrown;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(/practica3/img/book.jpg);
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        div:hover {
+            transform: translate(20px, 20px);
+            box-shadow: -1em -1em 9em black;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Mis materias favoritas</h1>
+            <ol>
+                <li>Programacion orienteada a objetos</li>
+                <li>Desarrollo Web</li>
+                <li>Programacion movil</li>
+                <li>Fundamentos de la programacion</li>
+                <li>Apreciacion musical</li>
+            </ol>
+    </section>
+    </div>
+</body>
+
+</html>
